@@ -22,7 +22,7 @@ module.exports = [
   {
     name: '[Ruby] Kernel Function',
     scope: [
-      'support.function.kernel'
+      'support.function.kernel.ruby'
     ],
     settings: {
       foreground: colors['yellow']
