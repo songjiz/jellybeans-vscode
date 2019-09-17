@@ -1,0 +1,174 @@
+{
+  "name": "jellybeans",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#151515",
+    "editor.foreground": "#e8e8d3",
+    "sideBar.background": "#151515",
+    "sideBarTitle.foreground": "#e8e8d3",
+    "sideBar.border": "#3b3b3b",
+    "statusBar.background": "#3b3b3b",
+    "activityBar.background": "#151515",
+    "activityBar.border": "#3b3b3b"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#888888",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "string",
+      "scope": "string",
+      "settings": {
+        "foreground": "#99ad6a"
+      }
+    },
+    {
+      "name": "Start Block",
+      "scope": [
+        "keyword.control.start-block"
+      ],
+      "settings": {
+        "foreground": "#71b9f8"
+      }
+    },
+    {
+      "name": "Parameters / Arguments",
+      "scope": [
+        "variable.parameter.function",
+        "variable.other",
+        "meta.function.method.with-arguments"
+      ],
+      "settings": {
+        "foreground": "#e8e8d3"
+      }
+    },
+    {
+      "name": "Special Method",
+      "scope": [
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#71b9f8"
+      }
+    },
+    {
+      "name": "Pseudo Method",
+      "scope": [
+        "keyword.control.pseudo-method"
+      ],
+      "settings": {
+        "foreground": "#447799"
+      }
+    },
+    {
+      "name": "Module / Class Name",
+      "scope": [
+        "entity.name.type.module",
+        "entity.name.type.class",
+        "meta.module",
+        "meta.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#ffb964"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#71b9f8"
+      }
+    },
+    {
+      "name": "String Interpolation",
+      "scope": [
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#c6b6fe"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#fad07a"
+      }
+    },
+    {
+      "name": "Variable self",
+      "scope": [
+        "variable.language.self"
+      ],
+      "settings": {
+        "foreground": "#cf6a4c"
+      }
+    },
+    {
+      "name": "Instance Variable",
+      "scope": [
+        "variable.other.readwrite.instance"
+      ],
+      "settings": {
+        "foreground": "#c6b6fe"
+      }
+    },
+    {
+      "name": "Constant Symbol",
+      "scope": [
+        "constant.language.symbol"
+      ],
+      "settings": {
+        "foreground": "#9c9bf7"
+      }
+    },
+    {
+      "name": "Constant Numeric",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#cf6a4c"
+      }
+    },
+    {
+      "name": "Constant Boolean",
+      "scope": [
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#cf6a4c"
+      }
+    },
+    {
+      "name": "Other Constant",
+      "scope": [
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#ffb964"
+      }
+    },
+    {
+      "name": "Regular Expression",
+      "scope": [
+        "punctuation.section.regexp",
+        "string.regexp.interpolated"
+      ],
+      "settings": {
+        "foreground": "#dd0093"
+      }
+    }
+  ]
+}

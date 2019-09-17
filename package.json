@@ -1,0 +1,33 @@
+{
+  "name": "jellybeans",
+  "displayName": "jellybeans",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/songjiz/jellybeans-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/songjiz/jellybeans-vscode"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "jellybeans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jellybeans-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "jellybeans",
+    "theme"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  }
+}
