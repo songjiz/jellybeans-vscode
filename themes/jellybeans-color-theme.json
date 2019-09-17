@@ -28,41 +28,46 @@
       }
     },
     {
-      "name": "Start Block",
+      "name": "Parameters / Arguments begin and end",
       "scope": [
-        "keyword.control.start-block"
-      ],
-      "settings": {
-        "foreground": "#71b9f8"
-      }
-    },
-    {
-      "name": "Parameters / Arguments",
-      "scope": [
-        "variable.parameter.function",
-        "variable.other",
-        "meta.function.method.with-arguments"
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end"
       ],
       "settings": {
         "foreground": "#e8e8d3"
       }
     },
     {
-      "name": "Special Method",
+      "name": "Parameters / Arguments",
       "scope": [
-        "keyword.other.special-method"
+        "variable.parameter",
+        "variable.other"
       ],
       "settings": {
-        "foreground": "#71b9f8"
+        "foreground": "#e8e8d3"
       }
     },
     {
       "name": "Pseudo Method",
       "scope": [
-        "keyword.control.pseudo-method"
+        "keyword.control.pseudo-method",
+        "keyword.control.flow",
+        "keyword.control.trycatch"
       ],
       "settings": {
-        "foreground": "#447799"
+        "foreground": "#6a8cc5"
+      }
+    },
+    {
+      "name": "module,class",
+      "scope": [
+        "keyword.control.class",
+        "keyword.control.module",
+        "meta.module",
+        "meta.class"
+      ],
+      "settings": {
+        "foreground": "#6a8cc5"
       }
     },
     {
@@ -70,9 +75,9 @@
       "scope": [
         "entity.name.type.module",
         "entity.name.type.class",
-        "meta.module",
-        "meta.class",
-        "support.class"
+        "support.class",
+        "support.constant",
+        "entity.name.type"
       ],
       "settings": {
         "foreground": "#ffb964"
@@ -84,32 +89,55 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#71b9f8"
+        "foreground": "#6a8cc5"
       }
     },
     {
-      "name": "String Interpolation",
+      "name": "Interpolation",
       "scope": [
         "punctuation.section.embedded.begin",
-        "punctuation.section.embedded.end"
+        "punctuation.section.embedded.end",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
       ],
       "settings": {
         "foreground": "#c6b6fe"
       }
     },
     {
-      "name": "Function",
+      "name": "Function declaration",
       "scope": [
-        "entity.name.function"
+        "meta.method.declaration"
       ],
       "settings": {
         "foreground": "#fad07a"
       }
     },
     {
-      "name": "Variable self",
+      "name": "Function brace",
       "scope": [
-        "variable.language.self"
+        "meta.brace.round"
+      ],
+      "settings": {
+        "foreground": "#e8e8d3"
+      }
+    },
+    {
+      "name": "Function Call",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#fad07a"
+      }
+    },
+    {
+      "name": "Variable self/this",
+      "scope": [
+        "variable.language.self",
+        "variable.language.this"
       ],
       "settings": {
         "foreground": "#cf6a4c"
@@ -168,6 +196,90 @@
       ],
       "settings": {
         "foreground": "#dd0093"
+      }
+    },
+    {
+      "name": "Logical Operator",
+      "scope": [
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#6a8cc5"
+      }
+    },
+    {
+      "name": "Operator Rest/Spread",
+      "scope": [
+        "keyword.operator.rest",
+        "keyword.operator.spread"
+      ],
+      "settings": {
+        "foreground": "#6a8cc5"
+      }
+    },
+    {
+      "name": "[JS] Block",
+      "scope": [
+        "punctuation.definition.block.js"
+      ],
+      "settings": {
+        "foreground": "#e8e8d3"
+      }
+    },
+    {
+      "name": "[JS] new/var/let/const",
+      "scope": [
+        "meta.var.expr.js",
+        "new.expr.js"
+      ],
+      "settings": {
+        "foreground": "#fad07a"
+      }
+    },
+    {
+      "name": "[JS] Function",
+      "scope": [
+        "storage.type.function.js",
+        "meta.function.expression.js"
+      ],
+      "settings": {
+        "foreground": "#71b9f8"
+      }
+    },
+    {
+      "name": "[JS] Property variable",
+      "scope": [
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#c6b6fe"
+      }
+    },
+    {
+      "name": "[Ruby] other variable as method",
+      "scope": [
+        "variable.other.ruby"
+      ],
+      "settings": {
+        "foreground": "#fad07a"
+      }
+    },
+    {
+      "name": "[Ruby] Start Block",
+      "scope": [
+        "keyword.control.start-block.ruby"
+      ],
+      "settings": {
+        "foreground": "#6a8cc5"
+      }
+    },
+    {
+      "name": "[Ruby] Kernel Function",
+      "scope": [
+        "support.function.kernel"
+      ],
+      "settings": {
+        "foreground": "#fad07a"
       }
     }
   ]

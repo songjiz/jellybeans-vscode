@@ -18,41 +18,48 @@ module.exports = {
       }
     },
     {
-      name: 'Start Block',
+      name: 'Parameters / Arguments begin and end',
       scope: [
-        'keyword.control.start-block'
-      ],
-      settings: {
-        foreground: colors['cyan']
-      }
-    },
-    {
-      name: 'Parameters / Arguments',
-      scope: [
-        'variable.parameter.function',
-        'variable.other',
-        'meta.function.method.with-arguments'
+        'punctuation.definition.parameters.begin',
+        'punctuation.definition.parameters.end',
       ],
       settings: {
         foreground: colors['foreground']
       }
     },
     {
-      name: 'Special Method',
+      name: 'Parameters / Arguments',
       scope: [
-        'keyword.other.special-method'
+        'variable.parameter',
+        'variable.other',
+        // 'variable.parameter.function',
+        // 'meta.function.method.with-arguments'
       ],
       settings: {
-        foreground: colors['cyan']
+        foreground: colors['foreground']
       }
     },
     {
       name: 'Pseudo Method',
       scope: [
-        'keyword.control.pseudo-method'
+        'keyword.control.pseudo-method',
+        'keyword.control.flow',
+        'keyword.control.trycatch'
       ],
       settings: {
-        foreground: colors['dark-blue']
+        foreground: colors['light-blue']
+      }
+    },
+    {
+      name: 'module,class',
+      scope: [
+        'keyword.control.class',
+        'keyword.control.module',
+        'meta.module',
+        'meta.class'
+      ],
+      settings: {
+        foreground: colors['light-blue']
       }
     },
     {
@@ -60,9 +67,9 @@ module.exports = {
       scope: [
         'entity.name.type.module',
         'entity.name.type.class',
-        'meta.module',
-        'meta.class',
-        'support.class'
+        'support.class',
+        'support.constant',
+        'entity.name.type'
       ],
       settings: {
         foreground: colors['orange']
@@ -74,32 +81,55 @@ module.exports = {
         'keyword.control'
       ],
       settings: {
-        foreground: colors['cyan']
+        foreground: colors['light-blue']
       }
     },
     {
-      name: 'String Interpolation',
+      name: 'Interpolation',
       scope: [
         'punctuation.section.embedded.begin',
-        'punctuation.section.embedded.end'
+        'punctuation.section.embedded.end',
+        'punctuation.definition.template-expression.begin',
+        'punctuation.definition.template-expression.end'
       ],
       settings: {
         foreground: colors['purple']
       }
     },
     {
-      name: 'Function',
+      name: 'Function declaration',
       scope: [
-        'entity.name.function'
+        'meta.method.declaration'
       ],
       settings: {
         foreground: colors['yellow']
       }
     },
     {
-      name: 'Variable self',
+      name: 'Function brace',
       scope: [
-        'variable.language.self'
+        'meta.brace.round'
+      ],
+      settings: {
+        foreground: colors['foreground']
+      }
+    },
+    {
+      name: 'Function Call',
+      scope: [
+        'entity.name.function',
+        'meta.function-call',
+        'keyword.other.special-method'
+      ],
+      settings: {
+        foreground: colors['yellow']
+      }
+    },
+    {
+      name: 'Variable self/this',
+      scope: [
+        'variable.language.self',
+        'variable.language.this'
       ],
       settings: {
         foreground: colors['red']
@@ -158,6 +188,25 @@ module.exports = {
       ],
       settings: {
         foreground: colors['pink']
+      }
+    },
+    {
+      name: 'Logical Operator',
+      scope: [
+        'keyword.operator.logical'
+      ],
+      settings: {
+        foreground: colors['light-blue']
+      }
+    },
+    {
+      name: 'Operator Rest/Spread',
+      scope: [
+        'keyword.operator.rest',
+        'keyword.operator.spread'
+      ],
+      settings: {
+        foreground: colors['light-blue']
       }
     }
   ]
