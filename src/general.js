@@ -108,7 +108,8 @@ module.exports = {
     {
       name: 'Function brace',
       scope: [
-        'meta.brace.round'
+        'meta.brace.round',
+        'punctuation.section.function'
       ],
       settings: {
         foreground: colors['foreground']

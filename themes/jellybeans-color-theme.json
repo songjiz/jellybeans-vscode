@@ -116,7 +116,8 @@
     {
       "name": "Function brace",
       "scope": [
-        "meta.brace.round"
+        "meta.brace.round",
+        "punctuation.section.function"
       ],
       "settings": {
         "foreground": "#e8e8d3"
@@ -280,6 +281,24 @@
       ],
       "settings": {
         "foreground": "#fad07a"
+      }
+    },
+    {
+      "name": "[Ruby] Other Constant",
+      "scope": [
+        "variable.other.constant.ruby"
+      ],
+      "settings": {
+        "foreground": "#ffb964"
+      }
+    },
+    {
+      "name": "[Ruby] Other Variable",
+      "scope": [
+        "variable.other.ruby"
+      ],
+      "settings": {
+        "foreground": "#e8e8d3"
       }
     }
   ]

@@ -27,5 +27,23 @@ module.exports = [
     settings: {
       foreground: colors['yellow']
     }
+  },
+  {
+    name: '[Ruby] Other Constant',
+    scope: [
+      'variable.other.constant.ruby'
+    ],
+    settings: {
+      foreground: colors['orange']
+    }
+  },
+  {
+    name: '[Ruby] Other Variable',
+    scope: [
+      'variable.other.ruby'
+    ],
+    settings: {
+      foreground: colors['foreground']
+    }
   }
 ]
