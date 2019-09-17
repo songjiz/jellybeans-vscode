@@ -180,15 +180,6 @@
       }
     },
     {
-      "name": "Other Constant",
-      "scope": [
-        "variable.other.constant"
-      ],
-      "settings": {
-        "foreground": "#ffb964"
-      }
-    },
-    {
       "name": "Regular Expression",
       "scope": [
         "punctuation.section.regexp",
@@ -256,6 +247,15 @@
       }
     },
     {
+      "name": "[JS] var/let/const",
+      "scope": [
+        "storage.type.js"
+      ],
+      "settings": {
+        "foreground": "#71b9f8"
+      }
+    },
+    {
       "name": "[Ruby] other variable as method",
       "scope": [
         "variable.other.ruby"
@@ -276,7 +276,7 @@
     {
       "name": "[Ruby] Kernel Function",
       "scope": [
-        "support.function.kernel"
+        "support.function.kernel.ruby"
       ],
       "settings": {
         "foreground": "#fad07a"

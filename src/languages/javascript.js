@@ -38,5 +38,14 @@ module.exports = [
     settings: {
       foreground: colors['purple']
     }
+  },
+  {
+    name: '[JS] var/let/const',
+    scope: [
+      'storage.type.js'
+    ],
+    settings: {
+      foreground: colors['cyan']
+    }
   }
 ]

@@ -172,15 +172,6 @@ module.exports = {
       }
     },
     {
-      name: 'Other Constant',
-      scope: [
-        'variable.other.constant'
-      ],
-      settings: {
-        foreground: colors['orange']
-      }
-    },
-    {
       name: 'Regular Expression',
       scope: [
         'punctuation.section.regexp',
