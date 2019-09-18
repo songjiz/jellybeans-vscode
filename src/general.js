@@ -47,7 +47,7 @@ module.exports = {
         'keyword.control.trycatch'
       ],
       settings: {
-        foreground: colors['light-blue']
+        foreground: colors['blue']
       }
     },
     {
@@ -59,7 +59,7 @@ module.exports = {
         'meta.class'
       ],
       settings: {
-        foreground: colors['light-blue']
+        foreground: colors['blue']
       }
     },
     {
@@ -81,7 +81,7 @@ module.exports = {
         'keyword.control'
       ],
       settings: {
-        foreground: colors['light-blue']
+        foreground: colors['blue']
       }
     },
     {
@@ -93,7 +93,7 @@ module.exports = {
         'punctuation.definition.template-expression.end'
       ],
       settings: {
-        foreground: colors['purple']
+        foreground: colors['magenta']
       }
     },
     {
@@ -142,7 +142,7 @@ module.exports = {
         'variable.other.readwrite.instance'
       ],
       settings: {
-        foreground: colors['purple']
+        foreground: colors['magenta']
       }
     },
     {
@@ -151,7 +151,7 @@ module.exports = {
         'constant.language.symbol'
       ],
       settings: {
-        foreground: colors['light-purple']
+        foreground: colors['dark-magenta']
       }
     },
     {
@@ -188,7 +188,7 @@ module.exports = {
         'keyword.operator.logical'
       ],
       settings: {
-        foreground: colors['light-blue']
+        foreground: colors['blue']
       }
     },
     {
@@ -198,7 +198,7 @@ module.exports = {
         'keyword.operator.spread'
       ],
       settings: {
-        foreground: colors['light-blue']
+        foreground: colors['blue']
       }
     }
   ]

@@ -16,7 +16,7 @@ module.exports = [
       'keyword.control.start-block.ruby'
     ],
     settings: {
-      foreground: colors['light-blue']
+      foreground: colors['blue']
     }
   },
   {

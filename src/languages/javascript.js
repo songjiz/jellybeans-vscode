@@ -36,7 +36,7 @@ module.exports = [
       'variable.other.property.js'
     ],
     settings: {
-      foreground: colors['purple']
+      foreground: colors['magenta']
     }
   },
   {

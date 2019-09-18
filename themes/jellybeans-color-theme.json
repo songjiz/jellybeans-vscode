@@ -9,7 +9,29 @@
     "sideBar.border": "#3b3b3b",
     "statusBar.background": "#3b3b3b",
     "activityBar.background": "#151515",
-    "activityBar.border": "#3b3b3b"
+    "activityBar.border": "#3b3b3b",
+    "terminal.background": "#151515",
+    "terminal.border": "#3b3b3b",
+    "terminal.foreground": "#e8e8d3",
+    "terminal.ansiBlack": "#3b3b3b",
+    "terminal.ansiBrightBlack": "#929292",
+    "terminal.ansiBlue": "#71b9f8",
+    "terminal.ansiBrightBlue": "#597bc5",
+    "terminal.ansiCyan": "#71b9f8",
+    "terminal.ansiBrightCyan": "#1ab2a8",
+    "terminal.ansiGreen": "#99ad6a",
+    "terminal.ansiBrightGreen": "#bddeab",
+    "terminal.ansiMagenta": "#c6b6fe",
+    "terminal.ansiBrightMagenta": "#fbdaff",
+    "terminal.ansiRed": "#cf6a4c",
+    "terminal.ansiBrightRed": "#ffa1a1",
+    "terminal.ansiWhite": "#adadad",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiYellow": "#fad07a",
+    "terminal.ansiBrightYellow": "#ffdca0",
+    "terminal.selectionBackground": "#474e91",
+    "terminalCursor.background": "#3b3b3b",
+    "terminalCursor.foreground": "#ffffff"
   },
   "tokenColors": [
     {
@@ -55,7 +77,7 @@
         "keyword.control.trycatch"
       ],
       "settings": {
-        "foreground": "#6a8cc5"
+        "foreground": "#597bc5"
       }
     },
     {
@@ -67,7 +89,7 @@
         "meta.class"
       ],
       "settings": {
-        "foreground": "#6a8cc5"
+        "foreground": "#597bc5"
       }
     },
     {
@@ -89,7 +111,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#6a8cc5"
+        "foreground": "#597bc5"
       }
     },
     {
@@ -196,7 +218,7 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "#6a8cc5"
+        "foreground": "#597bc5"
       }
     },
     {
@@ -206,7 +228,7 @@
         "keyword.operator.spread"
       ],
       "settings": {
-        "foreground": "#6a8cc5"
+        "foreground": "#597bc5"
       }
     },
     {
@@ -271,7 +293,7 @@
         "keyword.control.start-block.ruby"
       ],
       "settings": {
-        "foreground": "#6a8cc5"
+        "foreground": "#597bc5"
       }
     },
     {
