@@ -9,4 +9,4 @@ Inspired by
 
 ![Ruby](./screenshots/ruby.png)
 
-![Javascript](./screenshots/ruby.png)
+![Javascript](./screenshots/javascript.png)
