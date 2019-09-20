@@ -232,6 +232,15 @@
       }
     },
     {
+      "name": "Others",
+      "scope": [
+        "meta.toc-list.id.html"
+      ],
+      "settings": {
+        "foreground": "#e8e8d3"
+      }
+    },
+    {
       "name": "[JS] Block",
       "scope": [
         "punctuation.definition.block.js"
@@ -321,6 +330,35 @@
       ],
       "settings": {
         "foreground": "#e8e8d3"
+      }
+    },
+    {
+      "name": "[slim] Tag Name",
+      "scope": [
+        "entity.name.tag.slim"
+      ],
+      "settings": {
+        "foreground": "#cf6a4c"
+      }
+    },
+    {
+      "name": "[slim] Filter",
+      "scope": [
+        "constant.language.name.javascript.filter.slim",
+        "text.javascript.filter.slim"
+      ],
+      "settings": {
+        "foreground": "#597bc5"
+      }
+    },
+    {
+      "name": "[slim] Attribute Name",
+      "scope": [
+        "entity.other.attribute-name.slim",
+        "entity.other.attribute-name.event.slim"
+      ],
+      "settings": {
+        "foreground": "#d8ad4c"
       }
     }
   ]

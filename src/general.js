@@ -200,6 +200,15 @@ module.exports = {
       settings: {
         foreground: colors['blue']
       }
+    },
+    {
+      name: 'Others',
+      scope: [
+        'meta.toc-list.id.html'
+      ],
+      settings: {
+        foreground: colors['foreground']
+      }
     }
   ]
 }
